@@ -11,10 +11,9 @@ const cors = require("cors");
 const app = express();
 const allowedOrigins = [
   "http://localhost:5173", 
-//   "https://task-management-app-git-main-dharamveer-singhs-projects.vercel.app",
-//   "https://task-management-2y0nhcore-dharamveer-singhs-projects.vercel.app",
-//   "task-management-app-six-phi.vercel.app",
-//   "task-management-fc9pgs4ly-dharamveer-singhs-projects.vercel.app"
+  "https://food-delivery-app-zeta-wine.vercel.app/",
+  "https://food-delivery-app-git-main-dharamveer-singhs-projects.vercel.app/",
+  "https://food-delivery-9gqe6v97p-dharamveer-singhs-projects.vercel.app/",
 ];
 
 app.use(cors({
